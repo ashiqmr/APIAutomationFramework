@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.3" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ashiqrafy/eclipse-workspace/APIAutomationLearning/target/test-classes:/Users/ashiqrafy/eclipse-workspace/APIAutomationLearning/target/classes:/Users/ashiqrafy/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/ashiqrafy/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ashiqrafy/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ashiqrafy/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/ashiqrafy/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/ashiqrafy/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/ashiqrafy/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/ashiqrafy/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ashiqrafy/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ashiqrafy/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ashiqrafy/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ashiqrafy/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ashiqrafy/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/ashiqrafy/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ashiqrafy/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/ashiqrafy/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/ashiqrafy/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/ashiqrafy/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/ashiqrafy/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/ashiqrafy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/ashiqrafy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/ashiqrafy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/ashiqrafy/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar:/Users/ashiqrafy/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/ashiqrafy/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/ashiqrafy/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/ashiqrafy/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.4.v20240802-1551/jre/lib"/>
+    <property name="sun.java.command" value="/Users/ashiqrafy/eclipse-workspace/APIAutomationLearning/target/surefire/surefirebooter-20241205232841303_3.jar /Users/ashiqrafy/eclipse-workspace/APIAutomationLearning/target/surefire 2024-12-05T23-28-40_834-jvmRun1 surefire-20241205232841303_1tmp surefire_0-20241205232841303_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ashiqrafy/eclipse-workspace/APIAutomationLearning/target/test-classes:/Users/ashiqrafy/eclipse-workspace/APIAutomationLearning/target/classes:/Users/ashiqrafy/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/ashiqrafy/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ashiqrafy/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ashiqrafy/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/ashiqrafy/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/ashiqrafy/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/ashiqrafy/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/ashiqrafy/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ashiqrafy/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ashiqrafy/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ashiqrafy/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ashiqrafy/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ashiqrafy/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/ashiqrafy/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ashiqrafy/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/ashiqrafy/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/ashiqrafy/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/ashiqrafy/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/ashiqrafy/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/ashiqrafy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/ashiqrafy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/ashiqrafy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/ashiqrafy/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar:/Users/ashiqrafy/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/ashiqrafy/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/ashiqrafy/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/ashiqrafy/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ashiqrafy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.4.v20240802-1551/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ashiqrafy/eclipse-workspace/APIAutomationLearning"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/ashiqrafy/eclipse-workspace/APIAutomationLearning/target/surefire/surefirebooter-20241205232841303_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.4+7-LTS"/>
+    <property name="user.name" value="ashiqrafy"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.4+7"/>
+    <property name="localRepository" value="/Users/ashiqrafy/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/rp/ttyf19894d7119k7rj8rphc00000gn/T/"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="/Users/ashiqrafy/eclipse-workspace/APIAutomationLearning"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ashiqrafy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.4+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="verifyAddProduct" classname="tests.ProductTest" time="0.675">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 267
+ETag: W/"10b-rdgqsRbE5BHUl6SD4/NEZk6OhXA"
+Date: Fri, 06 Dec 2024 04:28:42 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999702,
+    "name": "Samsung S22",
+    "type": "Mobile",
+    "price": 1000,
+    "shipping": 10,
+    "upc": "string",
+    "description": "string",
+    "manufacturer": "string",
+    "model": "string",
+    "url": "string",
+    "image": "string",
+    "updatedAt": "2024-12-06T04:28:42.656Z",
+    "createdAt": "2024-12-06T04:28:42.656Z"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddProductMap" classname="tests.ProductTest" time="0.144">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 267
+ETag: W/"10b-YAf7sM85aNcPr4ifCeQfwAtK+1U"
+Date: Fri, 06 Dec 2024 04:28:42 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999703,
+    "image": "Mobile",
+    "shipping": 11,
+    "price": 1100,
+    "name": "Samsung S24",
+    "upc": "Mobile",
+    "description": "Mobile",
+    "model": "Mobile",
+    "type": "Mobile",
+    "url": "Mobile",
+    "manufacturer": "Mobile",
+    "updatedAt": "2024-12-06T04:28:42.977Z",
+    "createdAt": "2024-12-06T04:28:42.977Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="verifyEndToEndCallFlow" classname="tests.ProductTest" time="0.308">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 267
+ETag: W/"10b-gvVZ/ckXHsuaQYMdgeA2Nepy8O8"
+Date: Fri, 06 Dec 2024 04:28:42 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999704,
+    "image": "Mobile",
+    "shipping": 11,
+    "price": 1100,
+    "name": "Samsung S24",
+    "upc": "Mobile",
+    "description": "Mobile",
+    "model": "Mobile",
+    "type": "Mobile",
+    "url": "Mobile",
+    "manufacturer": "Mobile",
+    "updatedAt": "2024-12-06T04:28:42.992Z",
+    "createdAt": "2024-12-06T04:28:42.992Z"
+}
+The new ID is 9999704
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 283
+ETag: W/"11b-jYYmUMwJN5/mWHoHaCrCDnETOfk"
+Date: Fri, 06 Dec 2024 04:28:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999704,
+    "name": "Samsung S24",
+    "type": "Mobile",
+    "price": 1100,
+    "upc": "Mobile",
+    "shipping": 11,
+    "description": "Mobile",
+    "manufacturer": "Mobile",
+    "model": "Mobile",
+    "url": "Mobile",
+    "image": "Mobile",
+    "createdAt": "2024-12-06T04:28:42.992Z",
+    "updatedAt": "2024-12-06T04:28:42.992Z",
+    "categories": [
+        
+    ]
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 267
+ETag: W/"10b-tvoykRGs75tG17/Ld4Y8/JKgKPI"
+Date: Fri, 06 Dec 2024 04:28:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999704,
+    "name": "Samsung S24",
+    "type": "Mobile",
+    "price": 2000,
+    "upc": "Mobile",
+    "shipping": 11,
+    "description": "Mobile",
+    "manufacturer": "Mobile",
+    "model": "Mobile",
+    "url": "Mobile",
+    "image": "Mobile",
+    "createdAt": "2024-12-06T04:28:42.992Z",
+    "updatedAt": "2024-12-06T04:28:43.262Z"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 267
+ETag: W/"10b-tvoykRGs75tG17/Ld4Y8/JKgKPI"
+Date: Fri, 06 Dec 2024 04:28:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999704,
+    "name": "Samsung S24",
+    "type": "Mobile",
+    "price": 2000,
+    "upc": "Mobile",
+    "shipping": 11,
+    "description": "Mobile",
+    "manufacturer": "Mobile",
+    "model": "Mobile",
+    "url": "Mobile",
+    "image": "Mobile",
+    "createdAt": "2024-12-06T04:28:42.992Z",
+    "updatedAt": "2024-12-06T04:28:43.262Z"
+}
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Content-Type: application/json; charset=utf-8
+Content-Length: 111
+ETag: W/"6f-wLAnn20Tg9YVfXGDEkqSnrotZR0"
+Vary: Accept-Encoding
+Date: Fri, 06 Dec 2024 04:28:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "name": "NotFound",
+    "message": "No record found for id '9999704'",
+    "code": 404,
+    "className": "not-found",
+    "errors": {
+        
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="verifyGetRequest" classname="tests.ProductTest" time="0.494">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+ETag: W/"2caa-leGy6sqgYGMcM0MzgbybEhTZXfo"
+Content-Encoding: gzip
+Date: Fri, 06 Dec 2024 04:28:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{
+    "total": 51977,
+    "limit": 10,
+    "skip": 0,
+    "data": [
+        {
+            "id": 43900,
+            "name": "Duracell - AAA Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 5.49,
+            "upc": "041333424019",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; AAA size; DURALOCK Power Preserve technology; 4-pack",
+            "manufacturer": "Duracell",
+            "model": "MN2400B4Z",
+            "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208002",
+                    "name": "Alkaline Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        },
+        {
+            "id": 48530,
+            "name": "Duracell - AA 1.5V CopperTop Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 5.49,
+            "upc": "041333415017",
+            "shipping": 0,
+            "description": "Long-lasting energy; DURALOCK Power Preserve technology; for toys, clocks, radios, games, remotes, PDAs and more",
+            "manufacturer": "Duracell",
+            "model": "MN1500B4Z",
+            "url": "http://www.bestbuy.com/site/duracell-aa-1-5v-coppertop-batteries-4-pack/48530.p?id=1099385268988&skuId=48530&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/4853/48530_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208002",
+                    "name": "Alkaline Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        },
+        {
+            "id": 127687,
+            "name": "Duracell - AA Batteries (8-Pack)",
+            "type": "HardGood",
+            "price": 7.49,
+            "upc": "041333825014",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; AA size; DURALOCK Power Preserve technology; 8-pack",
+            "manufacturer": "Duracell",
+            "model": "MN1500B8Z",
+            "url": "http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208002",
+                    "name": "Alkaline Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        },
+        {
+            "id": 150115,
+            "name": "Energizer - MAX Batteries AA (4-Pack)",
+            "type": "HardGood",
+            "price": 4.99,
+            "upc": "039800011329",
+            "shipping": 0,
+            "description": "4-pack AA alkaline batteries; battery tester included",
+            "manufacturer": "Energizer",
+            "model": "E91BP-4",
+            "url": "http://www.bestbuy.com/site/energizer-max-batteries-aa-4-pack/150115.p?id=1051384046217&skuId=150115&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/1501/150115_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208002",
+                    "name": "Alkaline Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        },
+        {
+            "id": 185230,
+            "name": "Duracell - C Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 8.99,
+            "upc": "041333440019",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; C size; DURALOCK Power Preserve technology; 4-pack",
+            "manufacturer": "Duracell",
+            "model": "MN1400R4Z",
+            "url": "http://www.bestbuy.com/site/duracell-c-batteries-4-pack/185230.p?id=1051384046486&skuId=185230&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/1852/185230_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208002",
+                    "name": "Alkaline Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        },
+        {
+            "id": 185267,
+            "name": "Duracell - D Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 9.99,
+            "upc": "041333430010",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; D size; DURALOCK Power Preserve technology; 4-pack",
+            "manufacturer": "Duracell",
+            "model": "MN1300R4Z",
+            "url": "http://www.bestbuy.com/site/duracell-d-batteries-4-pack/185267.p?id=1051384046551&skuId=185267&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/1852/185267_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208002",
+                    "name": "Alkaline Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        },
+        {
+            "id": 309062,
+            "name": "Pioneer - 4\" 3-Way Surface-Mount Speakers with IMPP Composite Cones (Pair) - Black",
+            "type": "HardGood",
+            "price": 144.99,
+            "upc": "012562165141",
+            "shipping": 0,
+            "description": "80W maximum power (20W RMS); 4\" IMPP composite cone woofer; 3/4\" horn tweeter",
+            "manufacturer": "Pioneer",
+            "model": "TS-X200",
+            "url": "http://www.bestbuy.com/site/pioneer-4-3-way-surface-mount-speakers-with-impp-composite-cones-pair-black/309062.p?id=1218643240258&skuId=309062&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/0309/0309062_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0300000",
+                    "name": "Car Electronics & GPS",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "abcat0302000",
+                    "name": "Car Audio",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "abcat0302005",
+                    "name": "Car Speakers",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat360500050015",
+                    "name": "4\" Car Speakers",
+                    "createdAt": "2016-11-17T17:57:04.643Z",
+                    "updatedAt": "2016-11-17T17:57:04.643Z"
+                }
+            ]
+        },
+        {
+            "id": 312290,
+            "name": "Duracell - 9V Batteries (2-Pack)",
+            "type": "HardGood",
+            "price": 7.99,
+            "upc": "041333216010",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; alkaline chemistry; 9V size; DURALOCK Power Preserve technology; 2-pack",
+            "manufacturer": "Duracell",
+            "model": "MN1604B2Z",
+            "url": "http://www.bestbuy.com/site/duracell-9v-batteries-2-pack/312290.p?id=1051384050321&skuId=312290&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/3122/312290_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208002",
+                    "name": "Alkaline Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        },
+        {
+            "id": 333179,
+            "name": "Energizer - N Cell E90 Batteries (2-Pack)",
+            "type": "HardGood",
+            "price": 5.99,
+            "upc": "039800013200",
+            "shipping": 0,
+            "description": "Alkaline batteries; 1.5V",
+            "manufacturer": "Energizer",
+            "model": "E90BP-2",
+            "url": "http://www.bestbuy.com/site/energizer-n-cell-e90-batteries-2-pack/333179.p?id=1185268509951&skuId=333179&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/3331/333179_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208006",
+                    "name": "Specialty Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        },
+        {
+            "id": 346575,
+            "name": "Metra - Radio Installation Dash Kit for Most 1989-2000 Ford, Lincoln & Mercury Vehicles - Black",
+            "type": "HardGood",
+            "price": 16.99,
+            "upc": "086429002757",
+            "shipping": 0,
+            "description": "From our expanded online assortment; compatible with most 1989-2000 Ford, Lincoln and Mercury vehicles; snap-in TurboKit offers fast installation; spacer/trim ring; rear support bracket",
+            "manufacturer": "Metra",
+            "model": "99-5512",
+            "url": "http://www.bestbuy.com/site/metra-radio-installation-dash-kit-for-most-1989-2000-ford-lincoln-mercury-vehicles-black/346575.p?id=1218118704590&skuId=346575&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/3465/346575_rc.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0300000",
+                    "name": "Car Electronics & GPS",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat165900050023",
+                    "name": "Car Installation Parts & Accessories",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat165900050031",
+                    "name": "Deck Installation Parts",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat165900050033",
+                    "name": "Dash Installation Kits",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat331600050007",
+                    "name": "Car Audio Installation Parts",
+                    "createdAt": "2016-11-17T17:57:04.643Z",
+                    "updatedAt": "2016-11-17T17:57:04.643Z"
+                }
+            ]
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>

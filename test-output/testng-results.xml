@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-06T19:05:55 GMT-05:00" name="Default suite" finished-at="2024-12-06T19:05:57 GMT-05:00" duration-ms="1478">
+    <groups>
+    </groups>
+    <test started-at="2024-12-06T19:05:55 GMT-05:00" name="Default test" finished-at="2024-12-06T19:05:57 GMT-05:00" duration-ms="1478">
+      <class name="tests.ProductTest">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:55 GMT-05:00" name="preSetup" finished-at="2024-12-06T19:05:55 GMT-05:00" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:55 GMT-05:00" name="setup" finished-at="2024-12-06T19:05:55 GMT-05:00" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddProduct()[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:55 GMT-05:00" name="verifyAddProduct" finished-at="2024-12-06T19:05:56 GMT-05:00" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddProduct -->
+        <test-method is-config="true" signature="postTestCheck(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:56 GMT-05:00" name="postTestCheck" finished-at="2024-12-06T19:05:56 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddProduct status=SUCCESS method=ProductTest.verifyAddProduct()[pri:0, instance:tests.ProductTest@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCheck -->
+        <test-method signature="verifyAddProductMap()[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:56 GMT-05:00" name="verifyAddProductMap" finished-at="2024-12-06T19:05:56 GMT-05:00" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddProductMap -->
+        <test-method signature="verifyEndToEndCallFlow()[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:56 GMT-05:00" name="verifyEndToEndCallFlow" finished-at="2024-12-06T19:05:56 GMT-05:00" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEndToEndCallFlow -->
+        <test-method is-config="true" signature="postTestCheck(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:56 GMT-05:00" name="postTestCheck" finished-at="2024-12-06T19:05:56 GMT-05:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddProductMap status=SUCCESS method=ProductTest.verifyAddProductMap()[pri:0, instance:tests.ProductTest@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCheck -->
+        <test-method is-config="true" signature="postTestCheck(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:56 GMT-05:00" name="postTestCheck" finished-at="2024-12-06T19:05:56 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEndToEndCallFlow status=SUCCESS method=ProductTest.verifyEndToEndCallFlow()[pri:0, instance:tests.ProductTest@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCheck -->
+        <test-method signature="verifyGetRequest()[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:56 GMT-05:00" name="verifyGetRequest" finished-at="2024-12-06T19:05:56 GMT-05:00" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetRequest -->
+        <test-method is-config="true" signature="postTestCheck(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:56 GMT-05:00" name="postTestCheck" finished-at="2024-12-06T19:05:56 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGetRequest status=SUCCESS method=ProductTest.verifyGetRequest()[pri:0, instance:tests.ProductTest@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCheck -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ProductTest@46cdf8bd]" started-at="2024-12-06T19:05:56 GMT-05:00" name="cleanUp" finished-at="2024-12-06T19:05:57 GMT-05:00" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.ProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

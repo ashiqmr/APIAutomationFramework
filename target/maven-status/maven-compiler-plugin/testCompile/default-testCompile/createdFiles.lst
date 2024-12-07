@@ -1,0 +1,4 @@
+request/RequestFactory.class
+tests/ProductTest.class
+tests/BaseTest.class
+client/RestClient.class
